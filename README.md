@@ -103,7 +103,7 @@ plugins:
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/koishi-plugin-nodeseek-rss.git
+git clone https://github.com/jiusiguer/koishi-plugin-nodeseek-rss.git
 cd koishi-plugin-nodeseek-rss
 
 # 安装依赖
@@ -127,5 +127,5 @@ MIT License
 ## 📞 支持
 
 如有问题，请通过以下方式联系：
-- GitHub Issues：[提交问题](https://github.com/yourusername/koishi-plugin-nodeseek-rss/issues)
+- GitHub Issues：[提交问题](https://github.com/jiusiguer/koishi-plugin-nodeseek-rss/issues)
 - NodeSeek社区：讨论插件使用和改进建议

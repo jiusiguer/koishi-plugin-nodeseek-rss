@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-nodeseek-rss",
-  "description": "NodeSeek RSS 订阅插件，支持按标签分类获取帖子",
+  "description": "NodeSeek RSS 订阅插件，支持按标签分类获取帖子和关键词推送",
   "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -9,13 +9,36 @@
     "dist"
   ],
   "license": "MIT",
+  "author": "jiusiguer",
+  "homepage": "https://github.com/jiusiguer/koishi-plugin-nodeseek-rss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiusiguer/koishi-plugin-nodeseek-rss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiusiguer/koishi-plugin-nodeseek-rss/issues"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin",
     "rss",
-    "nodeseek"
+    "nodeseek",
+    "subscription",
+    "push",
+    "notification"
   ],
+  "koishi": {
+    "description": {
+      "zh": "NodeSeek RSS 订阅插件，支持按分类获取帖子、关键词搜索和推送订阅功能",
+      "en": "NodeSeek RSS subscription plugin with category filtering, keyword search and push notifications"
+    },
+    "service": {
+      "required": ["database", "http"],
+      "optional": ["assets"]
+    },
+    "locales": ["zh"]
+  },
   "peerDependencies": {
     "koishi": "^4.18.7"
   },
